@@ -1,0 +1,23 @@
+{
+  "name": "dream-team-marketplace",
+  "metadata": {
+    "description": "Skills and productivity tools.",
+    "version": "0.1.0"
+  },
+  "owner": {
+    "name": "Stefan Wold",
+    "email": "ratler@stderr.eu"
+  },
+  "plugins": [
+    {
+      "name": "dream-team",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ratler/dream-team.git"
+      },
+      "description": "Structured project planning and execution through brainstorm, spec, and build phases across three execution tiers: sequential, delegated sub-agents, and full agent teams",
+      "version": "0.1.0",
+      "strict": true
+    }
+  ]
+}
